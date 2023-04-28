@@ -3,10 +3,26 @@
     "name": "Skiperformance Manifest Test",
     "description": "A test app to see how manifest works",
     "icons": [{
-        "src": "favicon.ico",
-        "sizes": "64x64 32x32 24x24 16x16",
-        "type": "image/x-icon"
-    }],
+        "src": "icon64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+    },
+    {
+        "src": "icon32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+    },
+    {
+        "src": "icon24.png",
+        "sizes": "24x24",
+        "type": "image/png"
+    },
+    {
+        "src": "icon16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+    }
+],
     "start_url": "/index.html",
     "display": "standalone",
     "theme_color": "#000000",
